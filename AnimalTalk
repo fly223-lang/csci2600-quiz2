@@ -17,7 +17,7 @@ class Cat extends GenericAnimal {
 
 class Dog extends GenericAnimal {
 	public String talk(){ 
-		return "Oink Oink Oink"; }
+		return "Woof Woof Woof Woof Woof"; }
 }
 
 class GizmoTheCat extends Cat {
