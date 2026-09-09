@@ -17,7 +17,7 @@ class Cat extends GenericAnimal {
 
 class Dog extends GenericAnimal {
 	public String talk(){ 
-		return "Woof"; }
+		return "Oink Oink Oink"; }
 }
 
 class GizmoTheCat extends Cat {
@@ -38,7 +38,7 @@ public class AnimalTalk {
 
 		GenericAnimal G = new GizmoTheCat();
 		System.out.println(G.talk());
-		
+
 		// what does this print?
 		GizmoTheCat G2 = new GizmoTheCat();
 		GenericAnimal F = G2;  // Compile time type? Runtime type?
